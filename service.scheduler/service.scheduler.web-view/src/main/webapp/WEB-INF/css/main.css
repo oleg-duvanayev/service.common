@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0px;
+	padding: 0 px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+h1{
+	font: bold 20px Tahoma;
+}
+
+h2{
+	font: bold 14px Tahoma;
+}
+
+html, body { 
+	height:100%;
+	background-color: #FFFFE1; 
+	font:normal 12px Tahoma;
+	}
+	
+header{
+	/* text-align: center; */
+}
+#wrapper { 
+	height:80%;
+	margin-left: 10% ;
+	margin-right:10%;
+	margin-top: 5%;
+	margin-bottom:5%; 
+	border: 0px dotted black;
+}
+#theSection{
+	text-align:center; 
+	/* width: 100%;
+	 */
+	height: 100%;
+}
+footer { 
+	height:5%;
+	border-top: 1px dotted black;
+	text-align: center;
+	
+ }
+
+nav{
+	text-align: left;
+	
+}

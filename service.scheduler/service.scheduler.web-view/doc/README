@@ -1,0 +1,5 @@
+#
+# accordance to your environment,  you have to define in tomcat (or other) this two runtime arguments 
+# For production it does mean "production"
+# Dcommon.service.env=production -Denv.id=production
+Dcommon.service.env=development -Denv.id=development
